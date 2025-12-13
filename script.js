@@ -3,26 +3,48 @@ let photos = ["p1.jpg", "p2.jpg", "p3.jpg"];
 
 // TEKS UNTUK SETIAP SLIDE
 let texts = [
-`Maaf kalau aku belum bisa ngasih apa-apa selain
-kartu yang aku buat sendiri ini.
+`Selamat ulang tahun ya sayang,maap belum bisa
+kasih apa yang kamu mau,aku cuma ide aja bikinin
+kamu kartu digital ini pake ide aku sendiri hehe
+semoga kamu suka ya sama kartu buatan aku ini,sekali
+lagi maap belum bisa kasihh apaa apaa,semoga kedepan nya
+aku di kasih banyak rejeki buat bisa beliin apapun yang kamu 
+mauu.
+
 
 Semoga kamu suka ya.
 Dan terima kasih sudah bertahan sejauh ini.`,
 
 `Aku bersyukur banget punya kamu.
-Kita udah lewat banyak hal—senang, sedih, bahagia,
-bahkan berantem pun sering.
+Kita udah lewat banyak banget hal—senang, sedih, bahagia,
+bahkan berantem pun sering,tapi apa ujung ujung nya juga sayang-
+sayangan lagi,cinta cintaan lagi,justru menurut aku di situ letak 
+makna cinta tuh,mau sebesar apapun masalahnya yang di selesain itu
+masalah nya bukan hubungan nya,akuu minta sama kamu sesulit apapun
+jalan yang akan kita tempuh nantinya semoga kita mampu bertahan sampe
+kapanpun itu harus sama sama terus.
 
-Tapi tetap bertahan sejauh ini.
-Itu yang bikin hubungan ini luar biasa.`,
+karna itulah yang membuat hubungan ini luar biasaaaa.`,
 
-`Terima kasih sudah menjadi seseorang
-yang membuat dunia terasa lebih lembut.`
+`kamu tau gasih semenjak ketemu sama kamu tuh ngebuat aku lebih ngerasa 
+bahagia banget beda banget sebelum sama kamu tuh hidup aku bener bener 
+hampa bener bener gaada tujuan hidup lagi dan bener bener udah mau nyerah
+tapi setelah hadirnya kamu di hidup aku,itu bener bener ngerubah banget 
+kahidupan aku bener bener lebih ceria,seneng,apalagi bahagiaa ituu pastii
+bahagiaa bangettt.akuu mintaa kamuu jangann tinggalinn akuu ya,akuu mauu
+kitaa samaa samaa teruss sampai nanti,aku gamau liat kamu di sayang dan kamu
+sayang sama cowo lainn,akuu cumaa mauu kamuu samaa akuu ajaa di sinii samaa samaa
+sedihhh,senengg,sakittt,susahhh,kitaa lewatinn ituu semuaaa samaa samaa yahhh
+genggamm eratt keduaa tangann kitaa buatt berjalann bersamaa menuju hal yangg
+lebihhh indahh ke depan nyaaa,gaa banyakk yangg mauu akuu sampeinn samaa kamuu
+cumaa inii ajaa yangg mauu sampeinn ke kamuuu,samaa samaa teruss yaaaaaaaaaaaa
+karnaaa cintaa yangg sempurnaaa ituuu di perjuangkannn samaa samaaa
+I LOVEEEE YOUUUU SAYANGGGGGGG.`
 ];
 
 let index = 0;
 let typingIndex = 0;
-let speed = 35; // kecepatan animasi mengetik
+let speed = 50; // kecepatan animasi mengetik
 
 // Tampilkan slide awal
 document.getElementById("slidePhoto").src = photos[index];
@@ -58,3 +80,4 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
+ 
